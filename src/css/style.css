@@ -27,13 +27,11 @@ main{
     top: 330px; left: 90px;
     width: 330px;
     text-align: center;
-    background-color: red;
 }
 #tipo{
     top: 335px; left: 110px;
     width: 290px;
     text-align: center;
-    background-color: red;
 }
 
 #imagen{
@@ -49,14 +47,13 @@ main{
 
 #imagen img{
     width: 100%;
-    max-width: 300px;
+    max-width: 250px;
 }
 #name{
     top: 110px; left: 90px;
     width: 330px;
     height: 25px;
     text-align: center;
-    background-color: red;
     border-width: 0;
     font-size: 18px;
     font-weight: bold;
@@ -106,10 +103,11 @@ main{
     grid-template-columns: 1fr 1fr;
     column-gap: 10px;
     row-gap: 5px;
-    align-content: center;
+    align-content: flex-start;
 }
 
 #movimientos{
+
     overflow-y: scroll;
     scrollbar-color: green #BBB ;
 }
