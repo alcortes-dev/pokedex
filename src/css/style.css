@@ -1,0 +1,188 @@
+*{
+    box-sizing: border-box;
+}
+body{margin: 0; padding: 0;}
+
+main{
+    width: 960px;
+    margin: 0 auto;
+}
+
+#pokedex{
+    width: 960px;
+    height: 580px;
+    background-image: url("../img/Pokedex.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+#pokedex>*{
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+#nombre{
+    top: 330px; left: 90px;
+    width: 330px;
+    text-align: center;
+    background-color: red;
+}
+#tipo{
+    top: 335px; left: 110px;
+    width: 290px;
+    text-align: center;
+    background-color: red;
+}
+
+#imagen{
+    top: 105px; left: 70px;
+    width: 370px;
+    height: 180px;
+    background-color: azure;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#imagen img{
+    width: 100%;
+    max-width: 300px;
+}
+#name{
+    top: 110px; left: 90px;
+    width: 330px;
+    height: 25px;
+    text-align: center;
+    background-color: red;
+    border-width: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#buscar{
+    top: 187px; left: -84px;
+    width: 100px;
+    height: 20px;
+    border-radius: 7px;
+    text-align: center;
+    border-width: 0;
+    background-color: dodgerblue;
+    font-size: 16px;
+    box-shadow: -2px 2px 5px blue;
+}
+
+#buscar:hover{
+    font-weight: bold;
+}
+
+#estadisticas{
+    top: -80px; left: 554px;
+    width: 366px;
+    height: 93px;
+    border-radius: 5px;
+    display:  grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 5px;
+    align-content: center;
+}
+
+.estadistica-elemento, .movimientos-elemento{
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+
+#movimientos{
+    top: -96px; left: 554px;
+    width: 365px;
+    height: 144px;
+    border-radius: 5px;
+    background-color: rgb(119, 199, 88);
+    display:  grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 5px;
+    align-content: center;
+}
+
+#movimientos{
+    overflow-y: scroll;
+    scrollbar-color: green #BBB ;
+}
+
+
+/*
+***************************************************
+Primer acercamiento en css
+***************************************************
+
+
+#alfa{
+    width: 400px;
+    height: 500px;
+    background-color: #CE1131;
+    border-radius: 40px 10px 10px 40px;
+    border-width: 0 0 15px 15px;
+    border-color: #951828;
+    border-style: solid;
+}
+#alfa{
+    display: none;
+}
+
+#beta{
+    width: 360px;
+    height: 460px;
+    background-color: #951828;
+    position: relative;
+    top: -30px;
+    left: 20px;
+    clip-path: path('M 0 50 h 100 C 140 50 140 0 200 0 h 140 v 420 h -340 v -340 Z');    
+}
+
+#gama{
+    width: 320px;
+    height: 400px;
+    background-color: #BD0F34;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    clip-path: path('M 0 50 h 100 C 140 50 140 0 200 0 h 140 v 420 h -340 v -340 Z');
+}
+
+#c1{
+    width: 60px;
+    height: 60px;
+    background: radial-gradient(circle at 40% 40%,  rgb(211, 211, 236) 0%,  rgb(37, 28, 173), black 100%);
+    position: relative;
+    top: 15px;
+    left: 15px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+#c2, #c3, #c4 {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: green;
+    top: -20px;
+    left: 20px;
+
+}
+
+#c2{
+    background: radial-gradient(circle at 40% 40%,  rgb(211, 211, 236) 0%,  rgb(37, 28, 173), black 100%);
+}
+
+#c3, #c4{
+    background: radial-gradient(circle at 30% 30%,  rgb(253, 253, 218) 0%, rgb(243, 247, 11) , rgb(3, 3, 3) 100%);
+}
+*/
+
